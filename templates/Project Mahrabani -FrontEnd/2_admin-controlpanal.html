@@ -1,0 +1,142 @@
+{% extends "Project Mahrabani -FrontEnd/base.html" %}
+{% block title %} Project Maharbani - Admin Cpanal {% endblock title %}
+
+{% block body %}
+    <link rel="stylesheet" href="../../static/indexassets/css/adminCpanal.css">
+
+<div id="admin-cpanal-body">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-offset-0 col-md-12">
+                <p class="text-center" id="welcome-paragraph"><span class="welcome-user-name-h-span">User-Name-Span, </span>Welcome To Admin Control Panal</p>
+            </div>
+            <div class="col-md-12">
+                <form action="index.html" method="post">
+                    <button class="btn btn-danger active" type="submit" id="logout">Log-Out</button>
+                </form>
+            </div>
+        </div>
+        <hr>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div>
+                <ul class="nav nav-tabs">
+                    <li><a href="#tab-1" role="tab" data-toggle="tab">Admin Rights</a></li>
+                    <li><a href="#tab-2" role="tab" data-toggle="tab">Users List</a></li>
+                    <li class="active"><a href="#tab-3" role="tab" data-toggle="tab">Blocked User</a></li>
+                    <li><a href="#tab-4" role="tab" data-toggle="tab">Add Catagory/ Update Catagory</a></li>
+                    <li><a href="#tab-5" role="tab" data-toggle="tab">Contact Responces</a></li>
+                    <li><a href="#tab-6" role="tab" data-toggle="tab">Bugs Identified</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane" role="tabpanel" id="tab-1">
+                        <p>First tab content.</p>
+                        <div class="tab-pane-div-for-each-controls">
+                            <form action="#" method="post">
+                                <div class="form-group has-warning has-feedback">
+                                    <div class="col-md-4 col-sm-5">
+                                        <label class="control-label" for="password-input">Type Previous Password </label>
+                                    </div>
+                                    <div class="col-md-8 col-sm-5">
+                                        <input class="form-control" type="password" name="previous-password" required="" placeholder="type old password here" autofocus="" id="password-input"><i class="glyphicon glyphicon-warning-sign form-control-feedback" aria-hidden="true"></i></div>
+                                </div>
+                                <div class="form-group has-warning has-feedback">
+                                    <div class="col-md-4 col-sm-5">
+                                        <label class="control-label" for="password-input">Type New Passsword</label>
+                                    </div>
+                                    <div class="col-md-8 col-sm-5">
+                                        <input class="form-control" type="password" name="new-password" required="" placeholder="type new password here" id="password-input"><i class="glyphicon glyphicon-warning-sign form-control-feedback" aria-hidden="true"></i></div>
+                                </div>
+                                <div class="form-group has-warning has-feedback">
+                                    <div class="col-md-4 col-sm-5">
+                                        <label class="control-label" for="password-input">Again Type New Password</label>
+                                    </div>
+                                    <div class="col-md-8 col-sm-5">
+                                        <input class="form-control" type="password" name="new-password-again" required="" placeholder="again type new password here" id="password-input"><i class="glyphicon glyphicon-warning-sign form-control-feedback" aria-hidden="true"></i></div>
+                                </div>
+                                <button class="btn btn-danger" type="submit"><strong>Change Password</strong></button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="tab-pane" role="tabpanel" id="tab-2">
+                        <p>List of Visited Clints</p>
+                        <div>
+                            <form action="#" method="post">
+                                <div class="table-responsive">
+                                    <table class="table table-striped table-bordered table-hover table-condensed">
+                                        <thead>
+                                            <tr>
+                                                <th>User Image </th>
+                                                <th>User Name</th>
+                                                <th>User Email</th>
+                                                <th>User IP</th>
+                                                <th>Location </th>
+                                                <th>Contributions </th>
+                                                <th>Block User</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td> <img src="assets/img/1.jpg"></td>
+                                                <td>Cell 1</td>
+                                                <td>Cell 2</td>
+                                                <td>Cell 1</td>
+                                                <td>Cell 2</td>
+                                                <td> </td>
+                                                <td class="danger"> </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <button class="btn btn-primary" type="submit"><strong>Update Data</strong></button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="tab-pane active" role="tabpanel" id="tab-3">
+                        <p>List of All the Blocked Users and Their Description</p>
+                        <div>
+                            <form action="#" method="post">
+                                <div class="table-responsive">
+                                    <table class="table table-striped table-bordered table-hover table-condensed">
+                                        <thead>
+                                            <tr>
+                                                <th>User Image </th>
+                                                <th>User Name</th>
+                                                <th>User Email</th>
+                                                <th>User IP</th>
+                                                <th>Location </th>
+                                                <th>Unblock User</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td> <img src="assets/img/45-54 (19).png"></td>
+                                                <td>Cell 1</td>
+                                                <td>Cell 2</td>
+                                                <td>Cell 1</td>
+                                                <td>Cell 2</td>
+                                                <td class="danger"> </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <button class="btn btn-primary" type="submit"><strong>Update Record</strong></button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="tab-pane" role="tabpanel" id="tab-4">
+                        <p>Tab content.</p>
+                    </div>
+                    <div class="tab-pane" role="tabpanel" id="tab-5">
+                        <p>Tab content.</p>
+                    </div>
+                    <div class="tab-pane" role="tabpanel" id="tab-6">
+                        <p>Tab content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock body %}

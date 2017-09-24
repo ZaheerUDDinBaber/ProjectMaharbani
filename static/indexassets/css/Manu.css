@@ -1,0 +1,40 @@
+#manu{
+  margin-top: 120px;
+}
+
+hr{
+  color:gray;
+  border:solid grey 1px;
+  width:80%;
+}
+
+.products-container{
+  width:80%;
+  margin:0 auto;
+}
+
+.products-container .thumbnail{
+  width:25%;
+  display:inline-block;
+  margin-left:6%;
+  border:solid black 1px;
+}
+
+@media (max-width:767px) {
+  .products-container .thumbnail{
+    width:auto;
+    border:solid black 1px;
+  }
+}
+
+.catagory-button, .caption{
+  margin:0 auto;
+  text-align:center;
+  font-size:100%;
+  font-weight:900;
+}
+
+.catagory-button{
+
+}
+

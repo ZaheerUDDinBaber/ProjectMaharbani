@@ -1,0 +1,31 @@
+#admin-cpanal-body{
+  font-weight:800;
+  font-size:15px;
+}
+
+#admin-cpanal-body #logout{
+  margin:0 auto;
+  display:block;
+  width:80%;
+  font-size:30px;
+  margin-bottom:30px;
+  font-weight:600;
+}
+
+#admin-cpanal-body img{
+  width:60px;
+  height:60px;
+  border-radius:30px;
+}
+
+#admin-cpanal-body table tr th{
+  font-size:20px;
+  color:seagreen;
+}
+
+#admin-cpanal-body .row{
+  width:100%;
+  margin:0 auto;
+  margin-top:50px;
+}
+

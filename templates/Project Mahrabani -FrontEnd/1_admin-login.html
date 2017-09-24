@@ -1,0 +1,24 @@
+{% extends "Project Mahrabani -FrontEnd/base.html" %}
+{% block title %} Project Maharbani - Admin Login {% endblock title %}
+
+{% block body %}
+    <link rel="stylesheet" href="../../static/indexassets/css/admin_login.css">
+
+
+<div id="adminloginbody">
+    <div class="login-card"><img src="assets/img/avatar_2x.png" class="profile-img-card">
+        <p class="profile-name-card">Welcome To Admin C Panal</p>
+        <form action="#" method="post" class="form-signin"><span class="reauth-email"> </span>
+            <input class="form-control" type="email" name="admin-email" required="" placeholder="Email address" autofocus="" id="inputEmail">
+            <input class="form-control" type="password" name="admin-password" required="" placeholder="Password" id="inputPassword">
+            <div class="checkbox">
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox">Remember me</label>
+                </div>
+            </div>
+            <button class="btn btn-primary btn-block btn-lg btn-signin" type="submit">Sign in</button>
+        </form>
+    </div>
+</div>
+{% endblock body %}

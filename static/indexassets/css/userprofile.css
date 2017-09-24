@@ -1,0 +1,48 @@
+#user-profile-body{
+  margin-top: 130px;
+}
+.welcome-user-name-h-span{
+  color:rgba(237,25,11,0.63);
+  font-weight:800;
+  text-transform:uppercase;
+}
+
+#user-profile-body #welcome-paragraph{
+  font-weight:900;
+  font-size:120%;
+}
+
+#user-profile-body .row{
+  width:100%;
+  margin:0 auto;
+}
+
+#user-profile-body .tab-pane p{
+  font-size:20px;
+  font-weight:700;
+  margin-top:20px;
+}
+
+#profile-image-file{
+  margin-bottom:15px;
+}
+
+.tab-pane-div-for-each-controls{
+}
+
+#user-profile-body button{
+  font-size:90%;
+  font-weight:900;
+}
+
+#user-profile-body .thumbnail img{
+  width:250px;
+  height:240px;
+}
+
+#user-profile-body table tr th{
+  color:#ff0f00;
+  font-weight:700;
+  font-size:16px;
+}
+

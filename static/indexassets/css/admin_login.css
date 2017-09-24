@@ -1,0 +1,12 @@
+@import "Google-Style-Login.css";
+#adminloginbody .login-card{
+  background-color:rgba(0,0,0,0.85);
+  margin-top:140px;
+  color:white;
+  font-weight:800;
+}
+
+#adminloginbody label{
+  color:white;
+}
+
